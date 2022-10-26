@@ -179,6 +179,7 @@ body {
 }
 /*section about*/
 .about {
+            padding-top: 94px;
             padding-bottom: 94px;
 }
 .visually-hidden {
@@ -216,7 +217,7 @@ body {
 }
 .about-list-item{
     width: 270px;
-    padding-top: 94px;
+   
     
     
 }
@@ -248,7 +249,7 @@ body {
 .img-box-list {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    margin-top: 50px;
 
 }
 
@@ -259,11 +260,13 @@ body {
 /*section team*/
 .team-section{
     background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 .team {
             background: #F5F4FA;
-            padding-bottom: 94px;
+            
            
 }
 .title-team {
@@ -273,15 +276,15 @@ body {
             text-align: center;
             letter-spacing: 0.03em;
             color: var(--first-color);
-            padding-top: 94px;
+            
             
             
         
 }
 .list-team {
-            width: 270px;
+            
             display: flex;
-            padding-top: 50px;
+            margin-top: 50px;
             
     
     
@@ -294,6 +297,7 @@ body {
 }
 .card-styles {
             background-color: var(--element-font-color);
+            width: 270px;
 }
 .title-name {
             font-weight: 500;
@@ -302,7 +306,7 @@ body {
             text-align: center;
             letter-spacing: 0.03em;
             color: var(--first-color);
-            padding-top: 30px;
+
             padding-bottom: 10px;
 }
 .text-position {
@@ -312,13 +316,18 @@ body {
             text-align: center;
             letter-spacing: 0.03em;    
             color: #757575;
-            padding-bottom: 30px;
+            
 
 }
+.team-card-div {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 /*footer*/
-.footer-section{
+.footer {
             background: #2F303A;
             padding-top: 60px;
+            padding-bottom: 60px;
             
             
 }
@@ -338,11 +347,11 @@ body {
 }
 .footer-list {
             font-style: normal;
-            padding-bottom: 60px;
+
 
 }
-.footer-list:not(:first-child){
-    padding-top: 9px;
+.link:not(:first-child){
+    margin-top: 9px;
 }
 .footer-adress-link {
             font-weight: 400;
@@ -373,20 +382,20 @@ body {
 .footer-contact-link:focus {
             color: var(--second-color);
 }
-.portfolio {
+.section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .menu-btn {
             display: flex;
             margin: 0 auto;
+            
 
 }
-.card-container{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .btn {
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
 }
 
 
@@ -410,7 +419,7 @@ body {
             
 }
 .btn-nav:not(:first-child){
-    padding-left: 8px;
+    margin-left: 8px;
 }
 .btn-nav:hover,
 .btn-nav:focus{
@@ -472,8 +481,6 @@ padding-right: 24px;
 padding-top: 20px;
 padding-bottom: 20px;
 }
-.down{
-    padding-bottom: 94px;
-}
+
 .portfolio-title-item-port {
 }
